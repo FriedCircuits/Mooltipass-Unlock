@@ -42,7 +42,7 @@ usernames can be your email address.
     b.  Once installed you may need to change to that folder if it’s not
         > in the path.
 
-> ![](media/image11.png)
+> ![](media/image09.png)
 
 a.  You can update PIP if you like
 
@@ -76,7 +76,8 @@ d.  Windows Only - Libusb
 iv.)Select the Mooltipass - VID:16D0 PID:09A0 v.) Click Install then
 Cancel when it’s done.
 
-1.  Now we can unlock the bootloader
+1.  Now we can unlock the bootloader (Make sure you have a card inserted
+    > even if it isn’t valid)
 
     a.  Drop to a command prompt in the directory you extracted the
         > Mooltipass repo
@@ -123,7 +124,7 @@ Visual Studio and therefore only runs on Windows. ***
             > optimizations settings as they are lost when converting
             > to 7.
 
-        iii. ![](media/image03.png)
+        iii. ![](media/image01.png)
 
         iv. ![](media/image08.png)
 
@@ -203,7 +204,7 @@ a.  Copy mooltipass.hex to the AVRDude folder. (You could just point
     > since rebuilding a solution overwrites the file each time.) You
     > may want to keep different versions if you want to go back to a
     > known good build. You could build a hex before you make too many
-    > changes so you have a know good hex.
+    > changes so you have a known good hex.
 
 b.  Drop to a command prompt inside the AVRDude folder. Set up your
     > parameters at the command line before you reset the Mooltipass.
