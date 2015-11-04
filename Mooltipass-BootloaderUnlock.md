@@ -42,7 +42,7 @@ usernames can be your email address.
     b.  Once installed you may need to change to that folder if it’s not
         > in the path.
 
-> ![](media/image09.png)
+> ![](media/image06.png)
 
 a.  You can update PIP if you like
 
@@ -71,7 +71,7 @@ d.  Windows Only - Libusb
 
     iii. Run **install-filter-win.exe **
 
-> ![](media/image06.png)![](media/image13.png)
+> ![](media/image04.png)![](media/image09.png)
 
 iv.)Select the Mooltipass - VID:16D0 PID:09A0 v.) Click Install then
 Cancel when it’s done.
@@ -116,19 +116,7 @@ Visual Studio and therefore only runs on Windows. ***
     b.  Atmel Studio -
         > [*http://www.atmel.com/tools/ATMELSTUDIO.aspx*](http://www.atmel.com/tools/ATMELSTUDIO.aspx)
 
-        i.  6.2 -
-            > http://www.atmel.com/tools/STUDIOARCHIVE.aspxhttp://www.atmel.com/tools/STUDIOARCHIVE.aspx
-
-        ii. The source was created with Atmel Studio 6.2. 7 will work
-            > but you will need to double check the compiler
-            > optimizations settings as they are lost when converting
-            > to 7.
-
-        iii. ![](media/image01.png)
-
-        iv. ![](media/image08.png)
-
-![](media/image12.png)
+![](media/image07.png)
 
 a.  Extract AVRDude to a folder next to the source folder.
 
@@ -192,7 +180,7 @@ ii. Now any code you add, you can add an “\#if defined” around it. For
     a.  Build solution by using *F7* or from the Build menu *Build
         > Solution*.
 
-    b.  ![](media/image07.png)
+    b.  ![](media/image05.png)
 
     c.  Once you have worked out your errors you will find the
         > *mooltipass.hex* file here
